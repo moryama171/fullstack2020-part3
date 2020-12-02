@@ -40,8 +40,15 @@ app.get('/api/persons/:id', (request, response) => {
     if (person) {
         response.send(person);
     } else {
-        response.status(404).send('<h3>Sorry, not found</h3>').end()
+        response.status(404).end();
     }
+});
+
+app.delete('/api/persons/:id', (request, response) => {
+    const id = Number(request.params.id);
+    persons = persons.filter(person => person.id !== id);
+
+    response.status(204).end();
 });
 
 const PORT = 3001;
