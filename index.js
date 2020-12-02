@@ -46,6 +46,8 @@ app.get('/api/persons/:id', (request, response) => {
     }
 });
 
+const generateId = () => Math.floor(Math.random() * (10000 - 5) + 5);
+
 app.post('/api/persons', (request, response) => {
     const body = request.body;
     if (!body.name || !body.number) {
@@ -54,7 +56,7 @@ app.post('/api/persons', (request, response) => {
         });
     }
     const newPerson = {
-        id: body.id,
+        id: generateId(),
         name: body.name,
         number: body.number
     };
