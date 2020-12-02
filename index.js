@@ -28,6 +28,12 @@ app.get('/api/persons', (request, response) => {
     response.send(persons);
 });
 
-const PORT = 3001
-app.listen(PORT)
-console.log(`Running on localhost:${PORT}`)
+app.get('/info', (request, response) => {
+    const count = `Phonebook has info for ${persons.length} people`;
+    const dateTime = new Date();
+    response.send(`<p>${count}</p><p>${dateTime}</p>`);
+});
+
+const PORT = 3001;
+app.listen(PORT);
+console.log(`Running on localhost:${PORT}`);
