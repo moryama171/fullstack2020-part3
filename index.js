@@ -24,14 +24,24 @@ let persons = [
     }
 ];
 
-app.get('/api/persons', (request, response) => {
-    response.send(persons);
-});
-
 app.get('/info', (request, response) => {
     const count = `Phonebook has info for ${persons.length} people`;
     const dateTime = new Date();
     response.send(`<p>${count}</p><p>${dateTime}</p>`);
+});
+
+app.get('/api/persons', (request, response) => {
+    response.send(persons);
+});
+
+app.get('/api/persons/:id', (request, response) => {
+    const id = Number(request.params.id);
+    const person = persons.find(person => person.id === id);
+    if (person) {
+        response.send(person);
+    } else {
+        response.status(404).send('<h3>Sorry, not found</h3>').end()
+    }
 });
 
 const PORT = 3001;
