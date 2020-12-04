@@ -4,6 +4,8 @@ This is my submission for the Full Stack Open [Course](https://fullstackopen.com
 
 This is the server for a phonebook web application.
 
+Here you can find the [application](https://rocky-thicket-20623.herokuapp.com/).
+
 ## Learning focus
 
 - create a server with `Node.js`+`Express`
@@ -13,6 +15,7 @@ This is the server for a phonebook web application.
 - use `nodemon` library to restart server at changes
 - use `morgan` library for logging
 - use VS Code [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) to test requests
+- deployment on Heroku
 
 ## Notes
 
@@ -45,7 +48,7 @@ Run:
 npm run dev
 ```
 
-The server will run on [http://localhost:3000](http://localhost:3001).
+The server will run on [http://localhost:3001](http://localhost:3001).
 
 
 ## Improvements and beyond
