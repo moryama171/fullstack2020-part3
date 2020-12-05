@@ -4,7 +4,7 @@ This is my submission for the Full Stack Open [Course](https://fullstackopen.com
 
 This is the server for a phonebook web application.
 
-Here you can find the [application](https://rocky-thicket-20623.herokuapp.com/).
+Check out the [application](https://rocky-thicket-20623.herokuapp.com/).
 
 ## Learning focus
 
@@ -16,6 +16,7 @@ Here you can find the [application](https://rocky-thicket-20623.herokuapp.com/).
 - use `morgan` library for logging
 - use VS Code [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) to test requests
 - deployment on Heroku
+- MongoDB managed with `mongoose`
 
 ## Notes
 
@@ -31,6 +32,10 @@ Here you can find the [application](https://rocky-thicket-20623.herokuapp.com/).
 Uses Node.js v12.18.3 with Express.
 
 Javascript follows ES6 specifications.
+
+Database is a MongoDB managed via with Mongoose.
+
+Deployed on Heroku.
 
 ## Usage
 
