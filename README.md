@@ -8,7 +8,7 @@ Check out the [application](https://rocky-thicket-20623.herokuapp.com/).
 
 ## Learning focus
 
-- create a server with `Node.js`+`Express`
+- create a server with `Node.js` + `Express`
 - GET, POST, DELETE data
 - receive request data
 - middleware functions
@@ -16,8 +16,9 @@ Check out the [application](https://rocky-thicket-20623.herokuapp.com/).
 - use `morgan` library for logging
 - use VS Code [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) to test requests
 - deployment on Heroku
-- setup and connect a MongoDB
+- configuration of MongoDB
 - CRUD operations with `mongoose`
+- endpoint error handling
 
 ## Notes
 
