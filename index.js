@@ -1,8 +1,11 @@
 const express = require('express');
+const app = express();
+
+const Person = require('./models/person');
+
 const morgan = require('morgan');
 const cors = require('cors');
 
-const app = express();
 
 app.use(cors());
 
