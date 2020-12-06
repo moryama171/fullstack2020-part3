@@ -16,7 +16,8 @@ Check out the [application](https://rocky-thicket-20623.herokuapp.com/).
 - use `morgan` library for logging
 - use VS Code [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) to test requests
 - deployment on Heroku
-- MongoDB managed with `mongoose`
+- setup and connect a MongoDB
+- CRUD operations with `mongoose`
 
 ## Notes
 
