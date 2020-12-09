@@ -20,6 +20,7 @@ Check out the [application](https://rocky-thicket-20623.herokuapp.com/).
 - CRUD operations with `mongoose`
 - endpoint error handling
 - validation
+- ESLint and style guide
 
 ## Notes
 
